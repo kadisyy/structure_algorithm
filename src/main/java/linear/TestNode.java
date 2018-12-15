@@ -17,7 +17,13 @@ public class TestNode {
 
         // 连续增加
         n1.append(n2).append(n3).append(n4);
-        System.out.println(n3.next.data);
 
+        //n1.show();
+        //n1.next.removeNext();
+        //n1.show();
+
+        Node n5 = new Node(5);
+        n3.after(n5);
+        n1.show();
     }
 }
