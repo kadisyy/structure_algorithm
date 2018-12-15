@@ -10,7 +10,6 @@ public class Mystack {
         elements = new int[0];
     }
 
-
     public int size() {
         return elements.length;
     }
